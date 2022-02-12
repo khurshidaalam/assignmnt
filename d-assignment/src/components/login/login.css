@@ -1,0 +1,41 @@
+.login-div{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.login-content{
+    
+    padding: 10px;
+    background: linear-gradient(139deg, black, white, black);
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: grey;
+    padding: 30px;
+}
+.login-form input{
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+}
+.login-form input:focus{
+    outline: none;
+    
+}
+.signin-btn{
+    background-color: black;
+    padding: 10px;
+    font-style: none;
+    text-decoration: none;
+    border-radius: 3px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}

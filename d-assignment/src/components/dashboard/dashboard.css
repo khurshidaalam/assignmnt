@@ -1,0 +1,63 @@
+.product-card{
+   
+  height: 300px;
+  padding: 7px 7px 23px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+  margin: 20px;
+}
+.dashboard-content{
+    padding: 20px 50px;
+}
+.card-cover{
+    width: 100%;
+  height: 90px;
+  margin: 0 3px 0 0;
+  background-color: red;
+  border-radius: 4px;
+  position: relative;
+}
+.company-logo{
+    width: 85px;
+  height: 85px;
+  position: absolute;
+  left: 20px;
+  bottom: -42px;
+  border-radius: 50%;
+  border: 4px solid white;
+  overflow: hidden;
+  background-color: red;
+}
+.card-content{
+    height: calc(100% - 75px);
+    padding: 20px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.company-name h3{
+    color: #2a2a2e;
+    font-size: 20px;
+  font-weight: bold;
+}
+.address-qty,.products-group{
+    display: flex;
+    color: #63636a;
+    font-size: 14px;
+}
+.min-order-qty {
+    color: #01896a;
+    font-weight: 500;
+}
+.view-details{
+    color: #01896a;
+    font-size: 14px;
+  font-weight: 600;
+    padding: 8px 20px 8px 22px;
+    border-radius: 16px;
+    background-color: #d1ffd0;
+    border: none;
+}
